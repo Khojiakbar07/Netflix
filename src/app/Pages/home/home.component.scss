@@ -44,3 +44,23 @@
 .rowposter::-webkit-scrollbar{
   display: none;
 }
+.carousel-control-prev i{
+  color: black;
+  font-size: 100px;
+}
+.carousel-control-next i{
+  color: black;
+  font-size: 100px;
+}
+.footer__copy{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 0px 0;
+  .footer__copy-link{
+    font-size: 16px;
+    color: red;
+  }
+  .footer__copy-link:hover{
+    opacity: .7;
+  }
+}
